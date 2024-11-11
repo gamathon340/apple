@@ -1,0 +1,382 @@
+*{
+ padding: 0;
+ margin: 0;   
+}
+body{
+   overflow-x: hidden;
+
+}
+
+:root{
+    --black: rgba(0, 0, 0, .8);
+    --grey: rgb(110, 110, 115);
+    --white: white;
+    --green: green;
+    --font_1:14px;
+    --font_2:25px;
+    --font_3:15px;
+    --font_4:60px;
+    --whiter:#fafafc;
+        }
+
+        /*flex menu*/
+ ul li a{
+    display: block; 
+    padding: 20px 15px;  
+    align-items: center;
+    text-decoration: none;
+    color: var(--grey);
+    transition: 1.2s ease-out;
+    text-decoration: none;
+    font-size: var(--font_1);
+    font-weight: 400;
+   letter-spacing: -.01em;
+}
+
+ul.first_flex_nav_ul {
+background-color: var(--whiter);
+margin: 0;
+padding: 0px 230px;
+align-items: center;
+max-width: 70%;
+list-style-type: none;  
+position: relative;
+display: flex;
+justify-content: space-between;
+
+}
+
+path.bag_icon{
+stroke: var(--grey);
+}
+.search_icon{
+fill: var(--grey);    
+}
+.bag_icon_two{
+stroke: var(--grey);
+}
+
+li a:hover{
+   color: var(--black); 
+   transition: 0.3s ease-in ;
+}
+
+ul li ul.dropdown_first li{
+    display: block;   
+   }   
+   div.megamenu_one {
+    width: 1000px;
+    height: 500px;
+    padding: 40px 45px;
+    z-index: 999;
+    position: absolute;
+    background-color:  var(--whiter);
+    display: none;  
+    transition: all 2s ease ease-in-out;
+   }
+   ul li a:hover{
+    color: var(--black);   
+   }
+    li:hover div.megamenu_one{
+      display: block; 
+      color: rgb(110, 110, 115);
+   }  
+   div.megamenu_one{
+    display: none;  
+   }
+.megamenu_one a{
+padding: 0;
+margin-bottom: .30em;
+}
+.d_category{
+   font-size: var(--font_1);
+   margin: 0.5em;
+   padding: 0;
+}
+.d_shop:first-of-type{
+ margin-top: 0;  
+}
+nav.megamenu_one_flex{
+ display: flex;
+ max-width: 70%;
+ justify-content: space-around;
+}
+.megamenu_one li{
+   list-style: none;
+}
+.dropdown_first li a{
+ font-size: var(--font_2); 
+ color: var(--black);
+}
+.dropdown_second li a{
+ font-size: var(--font_3); 
+ color: var(--black);
+}
+.dropdown_third li a{
+   font-size: var(--font_3);  
+   color: var(--black);
+}
+/*flex menu*/
+
+/*big banner pic and apple text*/
+.hero_banner img{
+   max-width: 100%;
+   zoom: 100%;
+  background-size: 120%;
+  height: 500px;
+}
+h1.mid_text{
+ position: relative;
+ padding-top: 50px;
+ left: 580px;
+ font-size: var(--font_4);  
+ line-height: 1.08349;
+ font-weight: 600;
+ letter-spacing: -0.003em;
+ font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+/*big banner pic and apple text*/
+
+/*Mac products*/
+li.image_grid_img a{
+   padding: 0;
+   font-size: 17px;
+   list-style-type: none;
+   text-decoration: none;
+   line-height: 1.47059;
+   font-weight: 400;
+   letter-spacing: -0.022em;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+   background-color: white;
+   color: #1d1d1f;
+   font-style: normal
+   }
+  li.image_grid_img a.afirst{
+    position: relative;
+    top: 10px;  
+   }
+   li.image_grid_img a.afirst:hover{
+       text-decoration: underline;
+   }
+   li.image_grid_img img{
+     padding: 0;
+     max-width: 68px;
+   }
+   li.image_grid_img{
+      max-width: 70%;
+      margin-left: 70px;
+      margin-top: 70px;
+      display: inline-block;
+     padding: 0; 
+   }
+   nav.image-grid{
+     position: relative;
+     left: 260px;
+   }
+/*Mac products*/
+
+/*flexhover pic*/
+   div.container{
+      max-width: 1000px; 
+      text-align: center;
+     }
+     div.flex_firsthover{
+      display: flex; 
+     position: relative;
+     top: 60px;
+     
+   }     
+     .firsthover{
+      width: 434px;
+      height: 181px;
+      border-radius: 20px;
+      background-color: #fafafc; 
+      box-shadow: 2px 2px 6px  #8e8e90;
+      margin-left: 20px;
+     position: relative;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 106.25%;
+     left: 270px;
+     transition: all 0.2s ease-in
+     }
+     .firsthover:hover{
+      transform: scale(1.01);
+     }
+     .pfirsthover{
+       text-decoration: none;
+     }
+     .firsthover a{
+       text-decoration: none;
+       color:#0066cc;
+     }
+     .firsthover a:hover{
+       text-decoration: underline;
+     }
+/*flexhover pic*/
+
+/*search-header*/
+h2.search-header{
+   text-align: center;
+   word-break: break-word;
+   font-size: 40px;
+   line-height: 1.1;
+   font-weight: 600;
+   letter-spacing: 0em;
+   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+   }
+   /*search-header*/
+   
+   /*below is for the search input*/
+   :root{
+    --grey2:#d2d2d7; 
+    --grey3:#1d1d1f;
+    --grey4: #666;
+   }
+   form{
+     display: flex;    
+     height: max-content;
+     position: absolute;
+     left: 280px;
+     }
+     .search{
+       --padding:14px;
+   width: 690px;    
+   display: flex;  
+   height: 26px;
+   border-radius: 15px 15px 0 0;
+   box-shadow: 0 0 2px #d2d2d7;
+   padding:var(--padding); 
+   }
+   .search:focus-within{
+   box-shadow: #0071e3 1px;
+   border: #0071e3 solid;
+   }
+   .search-input{
+   margin-left: var(--padding);  
+   width: 690px;
+   outline: 0;
+   font-size: 16px;
+   color: black;
+   background-color: transparent;
+   border: none;
+   font-family:'Times New Roman', serif; 
+   }
+   .searchinput::placeholder,
+   .search-icon
+   {
+   color: var(--grey2);
+   position: relative;
+   text-align: center;
+   }
+   .search-input+label{
+   font-size: 23px;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+   color: var(--grey2);
+   padding: 14px;
+   position: absolute;
+   top: -5px;
+   left:36px;
+   transition: 0.1s ease all;
+   }
+   .search{
+     position: relative;
+     width: auto;
+     height: auto;
+   }
+   .search-input:focus-within+label
+   {
+    font-size: 13px; 
+    position: absolute;
+    top: -10px;
+    padding-bottom: 12px;
+    color: var(--grey3);
+   }
+   /*above is the form*/
+   
+   
+   /*below is the mega menu for form_one*/
+   div.megamenu-container{
+   position: relative;
+   top: 53px;
+   left: 280px;  
+  
+   /*padding-left: 45px;*/
+   width: 755px;
+   height: 200px;
+   border-width: 1px;
+   border-color: #d2d2d7;
+   border-style: solid;
+   border-color: #1d1d1f;
+   border-radius:0 0 5px 5px;
+   }
+   .plinks-1{
+     list-style-type: none;
+     font-size: 15px;
+     padding: 10px;
+    position: relative;
+   }
+   .plinks-1 a{
+     color: #1d1d1f;
+     text-decoration: none;
+     position: relative;
+     left: 40px;
+   }
+    .plinks-1:hover{
+     background-color: gray;
+     }
+     /*above is the mega menu for form_one */
+   
+    /*below is the quick search container*/ 
+   h3.quickLinks{
+     position: relative;
+     left: 10px;
+     font-size: 12px;
+     line-height: 1.33337;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+     font-style: normal;
+     color: var(--grey4);
+   }
+   #secondBackground{
+     position: relative;
+     background-color:  #fafafc;
+     height: 1000px;
+     display: flex;
+     flex-direction: column;
+   }
+   #innerSecondContainer{
+     position: inherit;
+     top: 100px;
+     left: 400px;
+     text-align: center;
+     padding: 15px;
+     width: 700px;
+     height: 400px;
+     background-color: white;
+     border-radius: 5px;
+    
+   }
+   .innerSecondContainerH2{   
+    font-size: 40px;
+     line-height: 1.1;
+     font-weight: 600;
+     letter-spacing: 0em;
+     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+   }
+   span.appleYt a{
+     text-decoration: none;
+     color: #0071e3;
+     font-size: 15px;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+     
+   }
+   .innerSecondContainerSpan1{
+     font-size: 17px;
+     line-height: 1.47059;
+     font-weight: 400;
+     letter-spacing: -0.022em;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+   }
+   span.appleYt a:hover{
+     text-decoration: underline;
+   }
+   /*above is the quick search container*/
